@@ -1,4 +1,6 @@
 # Geenivaramu prooviülesanne
+App töötab testitult: Chrome, Mozilla, Edge. 
+Ei tööta: internet Explorer
 
 Ajakulu:
 - 10-15 minutit läks ülesande lugemise ja arusaamise peale. Uurisin selle ajaga ka  kokkupakitud näidisfaile. 
