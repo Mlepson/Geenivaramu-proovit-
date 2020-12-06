@@ -45,10 +45,10 @@ $ sudo a2ensite veebilahendus.conf
 $ sudo service apache2 restart
 7) Järgmiseks seadistame postgresql andmebaasi
 $ sudo -i -u postgres
-# CREATE USER geenivaramu WITH PASSWORD 'halbparool';
-# CREATE DATABASE "geenivaramu";
-# GRANT ALL ON DATABASE "geenivaramu" TO geenivaramu;
-# \q
+#CREATE USER geenivaramu WITH PASSWORD 'halbparool';
+#CREATE DATABASE "geenivaramu";
+#GRANT ALL ON DATABASE "geenivaramu" TO geenivaramu;
+#\q
 8) Luba andmebaasiga ühendumine kohalikust arvutist ning taaskäivita postgresql
 $ sudo nano /etc/postgresql/12/main/postgresql.conf
 #eemalda kommentaari märk järgnevalt realt:
