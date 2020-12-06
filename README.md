@@ -13,8 +13,9 @@ XAMPP : https://www.apachefriends.org/index.html
             $ git clone https://github.com/Mlepson/Geenivaramu-proovit-.git
      
 3) Ava xampp/php/php.ini fail ja eemalda kommentaari märk järgnevatelt ridadelt
-;extension=pdo_pgsql
-;extension=pgsql
+
+            ;extension=pdo_pgsql
+            ;extension=pgsql
 4) Tee Apachele restart, vajutades stop -> start
 5) Ava veebirakendus kasutades veebilehitsejat  aadressilt: localhost/Geenivaramu-proovit-/
 
