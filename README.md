@@ -71,8 +71,7 @@ XAMPP : https://www.apachefriends.org/index.html
 
             #pg_connect("host='localhost' port=5432 dbname=geenivaramu user=geenivaramu password=halbparool")
 10) Ava veebirakendus kasutades veebilehitsejat  aadressilt: http://{sinu.arvuti.ip.aadress}/
-11)???
-12) Profit?
+
 
 
 Ajakulu:
