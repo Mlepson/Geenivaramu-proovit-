@@ -1,0 +1,54 @@
+
+Püstitus
+
+Ülesandeks on luua veebilahendus, kahe põhi funktsionaalsusega:
+
+    Kasutajal on võimalik antud näidis andmetabelid(3tk) sisse lugeda.
+
+    Kasutaja saab vähemalit isikukoodi järgi otsida, et missugused read isiku kohta andmebaasis on.
+
+Ülesande 1 täpsustus:
+
+    Kasutajale kuvatakse veebivormi kus ta saab üleslaadida antud näidis failid.
+
+    Failid töödeldakse serveris ja sealt loetud read lisatakse andmebaasi. Tähelepanu pöörata failide natukene erinevale struktuurile ja andmetöötluse käigus nende ühtlustamisele
+
+Ülesande 2 täpsustus:
+
+    Kasutajale Kuvatakse veebivormi, kus on võimalik sisestada isikukood (lisapunktideks võib toimima panna ka osalise otsingu st 4561232... ja otsitakse kõiki selle kirjega algavaid ridu)
+
+    Peale otsingu sooritamist kuvatakse kasutajale tabelina kõiki ridu mis on andmebaasis (lisapunktideks võib liiga suure tabeli korral selle lehekülgedeks jagada)
+
+Näidisfailid asuvad lingil: https://owncloud.ut.ee/owncloud/index.php/s/KMXZFOJQLxjeNht
+
+Boonus ülesanne:
+
+    Rakenduses saab luua ja muuta kasutajaid ja nende õigusi
+
+    Kasutajatele saab anda järgmisi õigusi "faili üleslaadimine", "tulemuste vaatamine", "kasutajate haldamine"
+
+    Kasutajaid saab muuta muuta aktiivseks ja mitte aktiivseks ning vastavalt sellele nad kas saavad sisse logida või mitte.
+
+Tehnilised nõuded
+
+    Rakendusserveri programmeerimiskeel ei ole fikseeritud
+
+    Andmebaasina tuleb kasutada Postgres'i
+
+    Kasutajaliides peab olema kasutatav kõigis > 5% turuosaga brauserites
+
+    Rakendusele tuleb lisada kirjeldus ja ülesseadmise juhend
+
+        Ülesseadmiseks võib n dockerit või docker-compose'i kasutada
+
+        Andmebaasi ja esialgsete andmete loomine on automatiseeritud ja otse andmebaasis ülesseadmise käigus midagi tegema ei pea
+
+Tulemuse esitamine
+
+    Programmikood tuleks meile kättesaadavaks teha GitHub'i kaudu
+
+    Tulem ei tohi sisaldada projekti ehitamise käigus genereeritavaid faile
+
+    Lisada tuleb erinevatele tegevuste reaalne ajakulu
+
+Küsimused on teretulnud ja neid saab küsida kristjan.metsalu@ut.ee kaudu, millel katsun silma peal hoida - paar tundi lag'i võib NV'l sees olla.
