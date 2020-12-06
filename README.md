@@ -10,7 +10,7 @@ Postgre: https://www.postgresql.org/download/  (PostgreSQL 13.1 versioon)
 XAMPP : https://www.apachefriends.org/index.html
 2) klooni git repositoorium enda arvutisse kausta C:\xampp\htdocs
 
-      $ git clone https://github.com/Mlepson/Geenivaramu-proovit-.git
+            $ git clone https://github.com/Mlepson/Geenivaramu-proovit-.git
      
 3) Ava xampp/php/php.ini fail ja eemalda kommentaari märk järgnevatelt ridadelt
 ;extension=pdo_pgsql
