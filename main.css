@@ -1,0 +1,136 @@
+/*main välimine css file
+Marielle Lepson*/
+h1 {
+    text-align: center;
+    font-size: 5em;
+    font-family: Arial;
+    color: #a19e9d;
+    margin-bottom: .3em;
+}
+h2 {
+    text-align: center;
+    font-size: 1em;
+    font-family: Arial;
+    color: #a19e9d;
+    margin-bottom: .3em;
+}
+p {
+    text-align: center;
+    font-size: 1em;
+    font-family: Arial;
+    color: #a19e9d;
+    margin-bottom: .3em;
+}
+ul {
+    text-align: center;
+    font-size: 1em;
+    font-family: Arial;
+    color: #a19e9d;
+    margin-bottom: .3em;
+}
+* {
+    box-sizing: border-box;
+}
+
+/* jagame lehekülje kaheks*/
+#content, html, body {
+    height: 98%;
+}
+div.column {
+    font-size: 1em;
+    font-family: Arial;
+    color: #a19e9d;
+}
+#left {
+    float: left;
+    width: 50%;
+    background: #f1f2c3;
+    height: 600px;
+    /* kerimisbar overflow: scroll;*/
+}
+#right {
+    float: left;
+    width: 50%;
+    background: #f2d3c3;
+    height: 600px;
+    overflow: scroll;
+}
+
+/* Input osa CSS*/
+#otsi  { /*vasakul pool olev nupp */
+    width: 30%;
+    height: 20%;
+    background-color: #cbae1c;
+    color: white;
+    padding: 14px 20px;
+    margin-top: 10px ;
+    margin-left: 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: Arial;
+    font-size: 1em;
+}
+
+#sisesta { /*paremal pool olev nupp */
+    width: 50%;
+    height: 20%;
+    background-color: #cbae1c;
+    color: white;
+    padding: 14px 20px;
+    margin-top: 10px ;
+    margin-left: 19%;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: Arial;
+    font-size: 1em;
+
+}
+
+input[type=file] {
+    width: 50%;
+    color:  #a19e9d;
+    padding: 14px 20px;
+    margin-top: 8% ;
+    margin-left: 21%;
+    font-family: Arial;
+    font-size: 1em;
+}
+
+#otsi:hover {
+    background-color: #b39336;
+    color: white;
+}
+#sisesta:hover {
+    background-color: #b39336;
+    color: white;
+}
+
+input[type=text] { /*otsingu kast  */
+    width: 20%;
+    color:  #a19e9d;
+    padding: 5px 10px;
+    margin-top: 1% ;
+    margin-left: 3%;
+    font-family: Arial;
+    font-size: 1em;
+}
+form[name=otsing] { /* terve otsingu kast */
+    width: 100%;
+    color:  #a19e9d;
+    padding: 5px 10px;
+    margin-top: 2% ;
+    margin-left: 2%;
+    font-family: Arial;
+    font-size: 1em;
+}
+select[name=tüübid] { /*kast tüüpide valimiseks */
+    width: 20%;
+    color:  #a19e9d;
+    padding: 5px 10px;
+    margin-top: 2% ;
+    margin-left: 2%;
+    font-family: Arial;
+    font-size: 1em;
+}
