@@ -11,7 +11,6 @@ XAMPP : https://www.apachefriends.org/index.html
 2) klooni git repositoorium enda arvutisse kausta C:\xampp\htdocs
 
             $ git clone https://github.com/Mlepson/Geenivaramu-proovit-.git
-     
 3) Ava xampp/php/php.ini fail ja eemalda kommentaari märk järgnevatelt ridadelt
 
             ;extension=pdo_pgsql
@@ -24,7 +23,7 @@ XAMPP : https://www.apachefriends.org/index.html
 
 1) klooni git repositoorium enda arvutisse kausta vabal valikul nt /opt/
 
-               $ git clone https://github.com/Mlepson/Geenivaramu-proovit-.git
+            $ git clone https://github.com/Mlepson/Geenivaramu-proovit-.git
 2) Anna kaustale ning selles sisalduvatele failidele õiged failiõigused
 
         $ sudo chmod -R 755 Geenivaramu-proovit-
@@ -54,12 +53,12 @@ XAMPP : https://www.apachefriends.org/index.html
         $ sudo service apache2 restart
 7) Järgmiseks seadistame postgresql andmebaasi
 
-                $ sudo -i -u postgres
+            $ sudo -i -u postgres
 
-                #CREATE USER geenivaramu WITH PASSWORD 'halbparool';
-                #CREATE DATABASE "geenivaramu";
-                #GRANT ALL ON DATABASE "geenivaramu" TO geenivaramu;
-                #\q
+            #CREATE USER geenivaramu WITH PASSWORD 'halbparool';
+            #CREATE DATABASE "geenivaramu";
+            #GRANT ALL ON DATABASE "geenivaramu" TO geenivaramu;
+            #\q
 8) Luba andmebaasiga ühendumine kohalikust arvutist ning taaskäivita postgresql
 
         $ sudo nano /etc/postgresql/12/main/postgresql.conf
@@ -70,7 +69,7 @@ XAMPP : https://www.apachefriends.org/index.html
 9) Seadista config.php fail vastavalt andmebaasi seadistustele
 #Näidisseadistuse puhul
 
-                #pg_connect("host='localhost' port=5432 dbname=geenivaramu user=geenivaramu password=halbparool")
+            #pg_connect("host='localhost' port=5432 dbname=geenivaramu user=geenivaramu password=halbparool")
 10) Ava veebirakendus kasutades veebilehitsejat  aadressilt: http://{sinu.arvuti.ip.aadress}/
 11)???
 12) Profit?
