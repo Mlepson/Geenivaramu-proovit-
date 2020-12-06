@@ -39,6 +39,7 @@ $ sudo rm /etc/apache2/sites-available/*
         Require all granted
     </Directory>
 </VirtualHost>
+
 6) Luba veebileht ning taaskäivita veebiserver
 $ sudo a2ensite veebilahendus.conf
 $ sudo service apache2 restart
