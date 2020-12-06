@@ -29,16 +29,16 @@ $ sudo apt install apache2 php php-pgsql postgresql postgresql-contrib
 4) Kustuta apache serveri vaikimisi genereeritud veebilehtede konfiguratsioonid
 $ sudo rm /etc/apache2/sites-available/*
 5) Loo uus veebilehe konfiguratsioon /etc/apache2/sites-available/veebilahendus.conf järgneva sisuga:
-    <VirtualHost /*80>
-        #ServerName geenivaramu.test 
-        DocumentRoot /opt/Geenivaramu-proovit-/
-        DirectoryIndex index.php
-        <Directory /opt/Geenivaramu-proovit-/>
-            Options -Indexes +FollowSymLinks +MultiViews
-            AllowOverride All
-            Require all granted
-        </Directory>
-    </VirtualHost>
+        <VirtualHost /*80>
+            #ServerName geenivaramu.test 
+            DocumentRoot /opt/Geenivaramu-proovit-/
+            DirectoryIndex index.php
+            <Directory /opt/Geenivaramu-proovit-/>
+                Options -Indexes +FollowSymLinks +MultiViews
+                AllowOverride All
+                Require all granted
+            </Directory>
+        </VirtualHost>
 
 6) Luba veebileht ning taaskäivita veebiserver
 $ sudo a2ensite veebilahendus.conf
