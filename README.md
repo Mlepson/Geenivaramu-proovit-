@@ -1,3 +1,15 @@
+#Appi avamise juhend Windowsis.
+
+Samm 1. 
+Lae alla app.zip fail ning paki lahti.
+
+Samm 2. 
+
+
+
+
+
+
 # Geenivaramu prooviülesanne
 App töötab testitult: Chrome, Mozilla, Edge. 
 Ei tööta: internet Explorer
