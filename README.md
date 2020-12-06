@@ -1,9 +1,18 @@
 #Appi avamise juhend Windowsis.
 
 Samm 1. 
-Lae alla app.zip fail ning paki lahti.
+Lae alla app.zip fail ning paki lahti ja aseta kaust enda valitud kohale.
 
 Samm 2. 
+  a) Juhulkui seade ei oma PostgreSQL andmebaasi tõmba alla Postgre andmebaas leheküljelt: https://www.postgresql.org/download/ 
+  Töö ajal on kasutatud PostgreSQL 13.1 versiooni. 
+  Port: 5432
+  User: postgre
+  Password: postgre
+  Host:localhost
+  b) 
+
+Samm 3.
 
 
 
