@@ -1,18 +1,21 @@
 #Appi avamise juhend Windowsis.
 
 Samm 1. 
-Lae alla app.zip fail ning paki lahti ja aseta kaust enda valitud kohale.
+Lae alla zip failina kõik kaustas olevad failid ning paki lahti ja aseta kaust enda valitud kohale.
 
 Samm 2. 
   a) Juhulkui seade ei oma PostgreSQL andmebaasi tõmba alla Postgre andmebaas leheküljelt: https://www.postgresql.org/download/ 
   Töö ajal on kasutatud PostgreSQL 13.1 versiooni. 
   Port: 5432
-  User: postgre
-  Password: postgre
+  User: postgres
+  Password: postgres
   Host:localhost
+  b) Käivita pgAdmin 4. Logi sisse parooliga: postgres.
+
+Samm 3. Kasuta appi avamiseks XXAMPi. Kui seadmel ei ole seda, lae alla XXAMP: https://www.apachefriends.org/index.html
+  a) Käivita xampp-control.exe
   b) 
 
-Samm 3.
 
 
 
